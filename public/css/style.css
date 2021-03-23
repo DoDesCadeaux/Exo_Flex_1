@@ -1,16 +1,18 @@
-.flex-item {
-    background-color: coral;
-    text-align: center;
-    margin: 5px;
-    padding: 20px;
+section {
+    background-color: peachpuff;
+    height: 500px;
 }
 
 .flex-container {
     display: flex;
-    align-items: center;
-    margin-top: 25%;
+    align-content: center;
 }
 
-body {
-    background-color: peachpuff;
+.flex-item {
+    display: flex;
+    padding: 30px;
+    background-color:orangered;
+    margin: 5px;
+    text-align: center;
+    margin-top: 175px;
 }
