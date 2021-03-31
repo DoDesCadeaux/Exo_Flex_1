@@ -1,11 +1,11 @@
 section {
     background-color: peachpuff;
-    height: 500px;
 }
 
 .flex-container {
     display: flex;
-    align-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .flex-item {
